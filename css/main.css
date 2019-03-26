@@ -1,0 +1,131 @@
+/* -----------------------TEVAS-------------------------------------------------------- */
+body,
+body * {
+        margin: 0px;
+        padding: 0px;
+        vertical-align: top;
+        box-sizing: border-box;
+        font-size: 12pt;
+}
+/* ---------------------TEVAS---------------------------------------------------------- */
+/* ------------------------------------MARIJA------------------------------------------ */
+.marija {
+        display: inline-block;
+}
+.marija > * {
+        float:left;
+        width: 100%;
+}
+/* -----------------------------------MARIJA------------------------------------------- */
+/* ---------------------------PROCENTAI------------------------------------------------ */
+#desimt {
+        height: 10%;
+        min-height: 80px:
+}
+
+#penkiolika {
+        height: 15%;
+        min-height: 120px;
+}
+
+#dvidesimt {
+        height: 20%;
+        min-height: 160px;
+}
+/* -------------------------PROCENTAI------------------------------------------------- */
+/* ----------------------------------------Font'ai-------------------------------------*/
+
+@font-face {
+            font-family: Acumin Pro;
+            src: url(../fonts/Acumin-RPro.otf)
+}
+
+/* ----------------------------------------Font'ai------------------------------------ */
+.bodis {
+        display: inline-block;
+        float: left;
+        width: 100%;
+}
+.hero_background {
+                    background-image: url(../images/Background_1_2019.03.25.jpg);
+                    background-size: cover;
+                    repeat: no-repeat;
+                    width: 100%; 
+                    height: 100vh; 
+                    z-index: -2;
+
+                
+} 
+    .hero_content_box {
+                    width: 55%; min-width: 600px;
+                    /* background-color: white; */
+                    opacity: 1;
+                    height: 90vh; min-height: 800px;
+                    margin-left: calc( ( 100% - 55% ) / 2 );
+                    margin-top: calc( ( 100vh - 95vh ) / 2 );
+                    border-radius: 7px;
+    }
+    .hero_content_box_fill {
+                    width: 55%; min-width: 600px;
+                    background-color: white;
+                    opacity: 0.2;
+                    height: 90vh; min-height: 800px;
+                    border-radius: 7px;
+                    position: absolute;
+                    
+
+    }
+    .logo {
+            width: 5%;
+            min-width: 30px;
+            min-height: 30px;
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            float: none;
+    }
+    
+    .fontas {
+                font-family: Acumin Pro;
+    }
+
+    .lygiavimas1 {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 400%;
+                font-weight: 900;
+    }
+    .paragrafas2 {
+                width: 60%;
+                min-width: 200px;
+                height: 100%;
+                position: relative;
+                margin-left: calc( ( 100% - 60%) / 2 );       
+    }
+    .paragrafo_tekstas_2 {
+                text-align: center;
+                position: absolute;
+                font-size: 180%;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #616161;        
+    }
+        .laikrodis {
+                    width: 80%; min-width: 200px;
+                    height: 100%;
+                    margin-left: calc( ( 100% - 80% ) / 2 );
+                    position: relative;
+                    display: inline-block;
+        }
+        .laikrodzio_blokas {
+                    display: inline-block;
+                    float: left;
+                    width: 25%; min-width: 125px;
+                    height:100%;
+        }
+        
